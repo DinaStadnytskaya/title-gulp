@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+   <meta charset="utf-8">
+  <title>main page</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="@@description">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500&_v=20221109103904' rel='stylesheet' type='text/css'/> 
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css?_v=20221109103904"> 
+    <link rel="stylesheet" href="css/style.min.css?_v=20221109103904"/> 
+   <!---- <link rel="stylesheet" href="scss/media320.scss?_v=20221109103904" media="all and (max-width: 320px)">
+    <link rel="stylesheet" href="scss/media480.scss?_v=20221109103904" media="all and (max-width: 480px)">
+    <link rel="stylesheet" href="scss/media568.scss?_v=20221109103904" media="all and (max-width: 568px)">
+    <link rel="stylesheet" href="scss/media768.scss?_v=20221109103904" media="all and (max-width: 768px)">
+    <link rel="stylesheet" href="scss/media991.scss?_v=20221109103904" media="all and (max-width: 991px)>-->
+ </head>
+
+<body>
+   <svg style="display: none;">
+      <symbol id="facebook" viewBox="0 0 96.124 96.123">
+         <g>
+            <path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,
+               0-1.96,0.878-1.96,1.961v15.803c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,
+               0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654c1.083,0,1.
+               96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+               c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,
+               73.17,0.022,72.089,0.02z" />
+         </g>
+      </symbol>
+      <symbol id="twitter" viewBox="0 0 512 512">
+         <g>
+            <path d="M4,440.5c55.6,5,105.7-9,151.3-43.2c-47.7-4.2-79.6-28-97.4-72.6c15.6,1.9,30.2,2.4,45.7-1.8 
+           c-51.4-16-78.8-49.6-82.5-103.8c15.4,7.2,29.9,12.4,47,12.6c-30.5-22.9-46.1-52.6-45.5-90c0.3-17.2,4.9-33.4,
+           14-48.7C93.1,159.1,164,195.7,251.3,201.8c-0.5-3.8-0.8-6.8-1.2-9.9c-7.2-55.4,28.8-105.8,83.8-116.3c34.5-6.6,
+           65,2.5,90.8,26.3c4,3.6,7.4,4.4,12.4,3.1c20.1-5.1,39.2-12.5,57.7-22.5c-7.1,23.4-21.7,41-41.5,55.8c4.5-0.8,
+           9.1-1.4,13.6-2.3c4.7-1,9.4-2.1,14.1-3.4c4.5-1.2,8.9-2.6,13.3-4.1c4.5-1.5,9-3.2,14.3-4.1c-2.6,3.6-5.1,
+           7.4-7.9,10.9c-11.6,14.7-25,27.6-39.7,39.1c-1.5,1.2-2.8,3.8-2.7,5.6c0.8,35.5-4.2,70.1-15.7,103.7c-22.6,
+           66.2-62,119.8-121.1,158.1c-29.2,18.9-61.1,31.3-95.2,38.5c-33.8,7.1-67.8,8.4-101.9,4.4c-34.2-4-66.7-14.
+           1-97.3-29.9c-8.1-4.1-15.9-8.7-23.8-13.1C3.6,441.3,3.8,440.9,4,440.5z" />
+         </g>
+      </symbol>
+      <symbol id="instagram" viewBox="0 0 551.034 551.034">
+         <g>
+            <path d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722  
+           c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156 
+           C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156 
+           c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722 
+           c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z" fill="" />
+            <path
+               d="M275.517,133C196.933,133,133,196.933,133,275.516s63.933,142.517,142.517,142.517 
+           S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6c-48.095,0-87.083-38.988-87.083-87.083 
+           s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083C362.6,323.611,323.611,362.6,275.517,362.6z"
+               fill="" />
+            <circle cx="418.31" cy="134.07" r="34.15" fill="" />
+         </g>
+      </symbol>
+      <symbol id="viber" viewBox="0 0 176 176">
+         <g>
+            <circle cx="88" cy="88" fill="#000000" r="88"></circle>
+            <path
+               d="M129.54 61.54c-.77-3-3-6.42-5.8-9.35-3.44-3.6-7.84-6.53-11.69-7.39a128 128 0 0 0 -48.11 0c-7 1.56-15.77 10-17.48 16.74a92 92 0 0 0 0 39.49c1.38 5.46 7.37 12 13.3 15.14a16.6 16.6 0 0 0 4.18 1.61.65.65 0 0 1 .54.64v19.2a1.06 1.06 0 0 0 1.83.73l9.13-9.35 8.56-8.8a.62.62 0 0 1 .48-.2 129.12 129.12 0 0 0 27.56-2.22c7-1.56 15.77-10 17.49-16.75a92 92 0 0 0 .01-39.49zm-17.24 40.46a14.81 14.81 0 0 1 -6.36 7 14.48 14.48 0 0 1 -2.75.88c-1.07-.33-2.09-.54-3-.94a75.6 75.6 0 0 1 -20.85-12.3 55 55 0 0 1 -5.23-5.13 67.64 67.64 0 0 1 -10-15.27c-1.28-2.6-2.36-5.31-3.46-8-1-2.45.48-5 2-6.82a15.83 15.83 0 0 1 5.37-4 3.44 3.44 0 0 1 4.31 1 56.27 56.27 0 0 1 6.67 9.33 4.45 4.45 0 0 1 -1.25 6c-.5.34-1 .75-1.43 1.13a4.55 4.55 0 0 0 -1.08 1.15 3.13 3.13 0 0 0 -.24 2.78c1.93 5.31 4.86 9.73 9.24 12.84a23.91 23.91 0 0 0 4.76 2.62 7.14 7.14 0 0 0 3.58.87c2.18-.26 2.9-2.66 4.42-3.91a4.19 4.19 0 0 1 5-.22c1.62 1 3.18 2.12 4.74 3.23a52.2 52.2 0 0 1 4.45 3.39 3.54 3.54 0 0 1 1.11 4.37zm-14.36-24a2.11 2.11 0 0 1 -.12-.51 14.07 14.07 0 0 0 -.3-2 5.8 5.8 0 0 0 -2.14-3.36 5.9 5.9 0 0 0 -1.73-.84c-.79-.22-1.62-.16-2.4-.35a1.48 1.48 0 0 1 -1.2-1.71 1.55 1.55 0 0 1 1.63-1.25c4.58.34 8 2.54 8.88 7.45a11.48 11.48 0 0 1 .19 1.38 4 4 0 0 1 0 1.25 1.29 1.29 0 0 1 -1.06 1h-.22a1.5 1.5 0 0 1 -1.53-1.06zm-1.46-12.39a18 18 0 0 0 -4.86-1.49c-.74-.12-1.48-.19-2.22-.29a1.41 1.41 0 0 1 -1.33-1.58 1.39 1.39 0 0 1 1.55-1.37 20.26 20.26 0 0 1 8.43 2.2 17 17 0 0 1 7.45 7.35 19.28 19.28 0 0 1 1.84 5.91 7.54 7.54 0 0 1 .12.81c.05.6.07 1.19.12 1.94v.28a4 4 0 0 1 -.12.88 1.47 1.47 0 0 1 -2.76.14 4.22 4.22 0 0 1 -.15-1.24 16.1 16.1 0 0 0 -1.3-6.5 13.63 13.63 0 0 0 -.67-1.32 14.64 14.64 0 0 0 -6.1-5.72zm16.52 18.44c-1 0-1.49-.85-1.56-1.78-.13-1.83-.23-3.67-.48-5.49a22.34 22.34 0 0 0 -3.14-8.66 23 23 0 0 0 -15.4-10.58c-1.44-.25-2.91-.31-4.36-.47-.92-.09-2.13-.15-2.33-1.3a1.58 1.58 0 0 1 1.55-1.77h1.07a26.54 26.54 0 0 1 21.65 12 26.24 26.24 0 0 1 3.78 9.68c.38 2.17.52 4.39.69 6.59a1.55 1.55 0 0 1 -1.47 1.78z"
+               fill="#ffffff"></path>
+            <path
+               d="M88 0a88 88 0 1 0 88 88 88 88 0 0 0 -88-88zm50.83 103.13v.12c-2.56 10.39-14.14 21.52-24.77 23.84h-.12a138.13 138.13 0 0 1 -25.94 2.49c-2.54 0-5.1-.08-7.64-.23l-11.74 12.21a4.66 4.66 0 0 1 -8-3.23v-11.59a29.69 29.69 0 0 1 -7.79-3.61c-7.38-4.69-13.78-12.48-15.62-19.88v-.12a101.55 101.55 0 0 1 0-43.69v-.13c2.56-10.38 14.13-21.51 24.79-23.83h.12a137.68 137.68 0 0 1 51.82 0h.12c5.74 1.25 11.75 5.07 16.47 10 4 4.15 7.12 9.1 8.3 13.87v.13a101.55 101.55 0 0 1 0 43.65z"
+               fill="#ffffff"></path>
+         </g>
+      </symbol>
+   </svg>
+   <!--/sprite-->
+   <div class="wrapper"> <header class="header" id="header">
+   <div class="header__container  _container">
+      <div class="header__inner">
+         <div class="header__logo">
+            <picture><source srcset="./img/8.webp" type="image/webp"><img src="./img/8.png" alt=""></picture>
+         </div>
+         <!--/header__logo -->      
+            <nav class="header__nav nav active" id="nav">
+               <ul class="nav__block">
+                  <li class="nav__item"><a class="nav__link"  href="#" data-scroll="#title">Home</a></li>
+                  <li class="nav__item"><a class="nav__link"  href="#" data-scroll="#statistics">liroduct</a></li>
+                  <li class="nav__item"><a class="nav__link"  href="#" data-scroll="#lenora">liromo</a></li>
+                  <li class="nav__item"><a class="nav__link"   href="#"  data-scroll="#grill">About</a></li>
+                  <li class="nav__item"><a  class="nav__link"  href="#"
+                      data-scroll="#footer">Contact</a></li>
+               </ul>
+            </nav>
+            <!--/nav-->
+            <div class="nav__icon"><a href="#" target="_blank"><picture><source srcset="./img/7.webp" type="image/webp"><img src="./img/7.png" alt=""></picture></a>
+            </div>
+            <!--/nav__icon --> 
+      </div>
+      <!--/header__inner-->
+      <div class="toggle">
+         <button class="nav__toggle active" id="navToggle" type="button">
+            <span class="nav__toggle_item"></span>
+         </button>
+      </div>
+      <!--/toggle -->
+   </div>
+   <!--/header__container  -->
+</header> <main class="page">
+   <!--/title--------------------------------------------------------------------------->
+   <section class="page__title title" id="title">    
+      <div class="title__container _container">
+         <div class="title__background  _ibg">
+            <picture><source srcset="./img/0.webp" type="image/webp"><img class="title__photo" src="./img/0.png" alt=""></picture>
+         </div>
+         <div class="title__background-2 _ibg">
+            <picture><source srcset="./img/01.webp" type="image/webp"><img class="title__photoh" src="./img/01.png" alt=""></picture>
+         </div>
+         <div class="title__inner">
+            <div class="title__title title-one wow fadeIn">
+               <h1>Title Here</h1>
+               <p>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and
+                  demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot </p>
+               <button class="title__button button--yellow"><a href="#" target="_blank">Order now</a></button>
+            </div>
+            <!--/title__title-->
+           
+         </div>
+         <!--/title__inner -->
+         <div class="title__icon-a wow fadeInLeft  _ibg"><picture><source srcset="./img/1.webp" type="image/webp"><img src="./img/1.png" alt=""></picture></div>
+         <div class="title__icon-b wow fadeInRight _ibg"><picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.png" alt=""></picture></div>
+         <div class="title__icon-c wow fadeInLeft  _ibg"><picture><source srcset="./img/3.webp" type="image/webp"><img src="./img/3.png" alt=""></picture></div>
+         <div class="title__icon-d wow fadeInRight _ibg"><picture><source srcset="./img/4.webp" type="image/webp"><img src="./img/4.png" alt=""></picture></div>
+         <div class="title__icon-e wow fadeInLeft  _ibg"><picture><source srcset="./img/5.webp" type="image/webp"><img src="./img/5.png" alt=""></picture></div>
+         <div class="title__icon-f wow fadeInRight _ibg"><picture><source srcset="./img/6.webp" type="image/webp"><img src="./img/6.png" alt=""></picture></div>
+         <div class="title__icon-g wow fadeInLeft  _ibg"><picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.png" alt=""></picture></div>
+         <div class="title__icon-h wow fadeInRight _ibg"><picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.png" alt=""></picture></div>
+         <div class="title__icon-i wow fadeInLeft  _ibg"><picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.png" alt=""></picture></div>
+      </div>
+      <!--/title__container -->     
+   </section>
+   <!--/page__title title -->
+   <!--/sell----------------------------------------------------------------------------->
+   <section class="page__sell sell" id="sell">
+      <div class="sell__container _container">
+         <div class="sell_header">
+            <div class="sell__title  title-one wow fadeIn">
+               <h1>Best Seller</h1>
+            </div>
+            <div class="sell__text">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat.</p>
+            </div>
+         </div>
+         <!--/sell_header -->
+         <div class="sell__body body">
+            <div class="body__item  item">
+               <div class="item__button  button"><a class="item__icon" type="button" href="#" target="_blank"><img
+                        src="./img/sell/1.png" alt=" "></a>
+               </div>
+               <div class="item__name">
+                  <p><a href="#" target="_blank">Title Here</a></p>
+               </div>
+               <div class="item__discription">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+               </div>
+            </div>
+            <div class="body__item  item">
+               <div class="item__button  button"><a class="item__icon" type="button" href="#" target="_blank"><img
+                        src="./img/sell/2.png" alt=" "></a>
+               </div>
+               <div class="item__name">
+                  <p><a href="#" target="_blank">Title Here</a></p>
+               </div>
+               <div class="item__discription">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+               </div>
+            </div>
+            <div class="body__item  item">
+               <div class="item__button  button"><a class="item__icon" type="button" href="#" target="_blank"><img
+                        src="./img/sell/3.png" alt=" "></a>
+               </div>
+               <div class="item__name">
+                  <p><a href="#" target="_blank">Title Here</a></p>
+               </div>
+               <div class="item__discription">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+               </div>
+            </div>
+            <!--/sell__item-->
+         </div>
+         <!--/sell__body-->
+      </div>
+      </div>
+      <!--/container-->
+   </section>
+   <!--/page__sell sell-->
+   <!--/taste------------------------------------------------------------------------>
+   <section class="page__taste taste"  id="taste">
+      <div class="taste__background  _ibg">
+         <img class="taste__photo" src="./img/taste/taste1.png " alt="">
+      </div>
+      <div class="taste__container  _container">
+         <div class="taste__inner">
+            <div class="taste__leftblock   leftblock">
+               <div class="leftblock__image"><picture><source srcset="./img/taste/taste2.webp" type="image/webp"><img src="./img/taste/taste2.png" alt=""></picture></div>
+            </div>
+            <!--/taste__leftblock-->
+            <div class="taste__rightblock rightblock">
+               <div class="rightblock__body">
+                  <h1 class="rightblock__title title-one  wow fadeIn">Oriental Taste</h1>
+                  <p class="rightblock__text">On the other hand, we denounce with righteous indignation and dislike men
+                     who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire
+                  </p>
+                  <button class="rightblock__button  button  button--yellow"><a href="#" target="_blank">Order
+                        now</a></button>
+               </div>
+            </div>
+            <!--/taste__rightblock-->
+         </div>
+         <!--taste__inner-->
+      </div>
+      <!--/ taste__container-->
+   </section>
+   <!---/taste-->
+   <!--/statistics----------------------------------------------------------------------->
+   <section class="page__statistics statistics" id="statistics">
+      <div class="statistics__container  _container">
+         <div class="statistics__header">
+            <h1 class="statistics__title title-one wow fadeIn">Statistics</h1>
+            <p class="statistics__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+               praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi </p>
+         </div>
+         <!--/statistics__header -->
+         <div class="statistics__body body-statistics">
+            <div class="body-statistics__item">
+               <div class="body-statistics__num">123</div>
+               <div class="body-statistics__inscription">outlets</div>
+            </div>
+            <!--/statistics__item-->
+            <div class="body-statistics__item">
+               <div class="body-statistics__num">100</div>
+               <div class="body-statistics__inscription">shef</div>
+            </div>
+            <!--/statistics__item-->
+            <div class="body-statistics__item">
+               <div class="body-statistics__num">300</div>
+               <div class="body-statistics__inscription">menu</div>
+            </div>
+            <!--/statistics__item-->
+            <div class="body-statistics__item">
+               <div class="body-statistics__num">30</div>
+               <div class="body-statistics__inscription">country</div>
+            </div>
+            <!--/statistics__item-->
+         </div>
+         <!--/statistics__body-->
+         <div class="statistics__icon-j"><picture><source srcset="./img/1.webp" type="image/webp"><img src="./img/1.png" alt=""></picture></div>
+         <div class="statistics__icon-k"><picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.png" alt=""></picture></div>
+         <div class="statistics__icon-l"><picture><source srcset="./img/3.webp" type="image/webp"><img src="./img/3.png" alt=""></picture></div>
+         <div class="statistics__icon-m"><picture><source srcset="./img/4.webp" type="image/webp"><img src="./img/4.png" alt=""></picture></div>
+         <div class="statistics__icon-n"><picture><source srcset="./img/5.webp" type="image/webp"><img src="./img/5.png" alt=""></picture></div>
+         <div class="statistics__icon-o"><picture><source srcset="./img/6.webp" type="image/webp"><img src="./img/6.png" alt=""></picture></div>
+         <div class="statistics__icon-p"><picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.png" alt=""></picture></div>
+         <div class="statistics__icon-q"><picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.png" alt=""></picture></div>
+         <div class="statistics__icon-r"><picture><source srcset="./img/6.webp" type="image/webp"><img src="./img/6.png" alt=""></picture></div>
+      </div>
+      <!--/container-->
+   </section>
+   <!--/statistics -->
+   <!--/grill---------------------------------------------------------------------------->
+   <section class="page__grill grill" id="grill">
+      <div class="grill__background  _ibg">
+         <picture><source srcset="./img/grill/grill1.webp" type="image/webp"><img class="grill__photo" src="./img/grill/grill1.png" alt=""></picture>
+      </div>
+      <div class="grill__container  _container">
+         <div class="grill__inner">
+            <div class="grill__content">
+               <div class="grill__title  title-one  wow fadeIn">
+                  <h1>Chicken Grill</h1>
+               </div>
+               <div class="grill__text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                     aliquip ex ea commodo consequat.</p>
+               </div>
+               <!--/grill__text-->
+               <button class="grill__button button--yellow"><a href="#" target="_blank"><span>Order
+                        now</span></a></button>
+            </div>
+            <!--/grill__content -->
+            <div class="grill__image">
+               <picture><source srcset="./img/grill/grill2.webp" type="image/webp"><img class="grill__img" src="./img/grill/grill2.png" alt=""></picture>
+            </div>
+            <!--/grill__image-->
+         </div>
+         <!--/grill__inner-->
+      </div>
+      <!--/container-->
+   </section>
+   <!--/page__grill-->
+   <!--/lenora-------------------------------------------------------------------------->
+   <section class="page__lenora  lenora" id="lenora">
+      <div class="lenora__background  _ibg">
+         <picture><source srcset="./img/lenora/lenora2.webp" type="image/webp"><img class="lenora__photo" src="./img/lenora/lenora2.png" alt=""></picture>
+      </div> 
+         <div class="lenora__background-2 _ibg">
+            <img class="lenora__photoh" src="" alt="">
+         </div>
+      <div class="lenora__container _container">
+         <div class="lenora__content">
+            <div class="lenora__text">
+               <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and
+                  demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee
+                  the pain and trouble that are bound to ensue;</p>
+            </div>
+            <!--/lenora__text-->
+            <div class="lenora__subtitle wow  fadeInRight">
+               <h2>Lenora fields</h2>
+            </div>
+         </div>
+         <!--/lenora__content-->
+      </div>
+      <!--/container-->
+   </section>
+   <!--/lenora-->
+   <!--/subscribe--------------------------------------------------------------------- -->
+   
+<section class="page__subscribe subscribe" id="subscribe">
+   <div class="subscribe__container  _container">
+      <div class="subscribe__body">
+         <div class="subscribe__header">
+         <h1 class="subscribe__title  title-one wow fadeInLeft">Subscribe</h1>
+         <div class="subscribe__text">
+            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>
+         </div>
+         </div> <!--/subscribe__header-->
+         <div class="subscribe__form form">         
+         <form class="form__data" method="post" action="input1.php">
+               <input class="form__input" autocomplete="off" name="form[]"  type="email" value="Your Email" size="40" autofocus required >
+               <input  class="form__button" type="submit" value="Subscribe" 
+               formtarget="_blank">
+         </form>
+      </div>  <!--/subscribe__form -->      
+      </div>
+      <!--/subscribe__body--> 
+   </div>
+   <!--/container-->
+      <div class="subscribe__icon-s"><picture><source srcset="./img/1.webp" type="image/webp"><img src="./img/1.png" alt=""></picture></div>
+      <div class="subscribe__icon-t"><picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.png" alt=""></picture></div>
+      <div class="subscribe__icon-u"><picture><source srcset="./img/3.webp" type="image/webp"><img src="./img/3.png" alt=""></picture></div>
+      <div class="subscribe__icon-v"><picture><source srcset="./img/4.webp" type="image/webp"><img src="./img/4.png" alt=""></picture></div>
+      <div class="subscribe__icon-w"><picture><source srcset="./img/5.webp" type="image/webp"><img src="./img/5.png" alt=""></picture></div>
+      <div class="subscribe__icon-x"><picture><source srcset="./img/6.webp" type="image/webp"><img src="./img/6.png" alt=""></picture></div>
+      <div class="subscribe__icon-y"><picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.png" alt=""></picture></div>
+      <div class="subscribe__icon-z"><picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.png" alt=""></picture></div>
+      <div class="subscribe__icon-1"><picture><source srcset="./img/6.webp" type="image/webp"><img src="./img/6.png" alt=""></picture></div>   
+</section>
+<!--/subscribe-->
+</main> <footer class="footer" id="footer">
+   <div class="footer__container  _container">
+      <div class="footer__body">
+         <div class="footer__column column--first">
+            <div class="footer__title title-small">Title here</div>        
+            <div class="footer__slider">
+               <div class="slider__item">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+               </div> <!--/slider__item -->                            
+               <div class="slider__item">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+               </div> <!--/slider__item -->                            
+               <div class="slider__item">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+               </div> <!--/slider__item -->                            
+               <div class="slider__item">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+               </div> <!--/slider__item -->                            
+            </div>
+            <!--/footer__slider -->      
+            <div class="footer__social">
+               <a class="footer__item" href="#" target="_blank">
+                  <svg class="footer__icon">
+                     <use xlink:href="#facebook"></use>
+                  </svg></a>
+               <a class="footer__item" href="#" target="_blank">
+                  <svg class="footer__icon">
+                     <use xlink:href="#viber"></use>
+                  </svg></a>
+               <a class="footer__item" href="#" target="_blank">
+                  <svg class="footer__icon">
+                     <use xlink:href="#twitter"></use>
+                  </svg></a>
+               <a class="footer__item" href="#" target="_blank">
+                  <svg class="footer__icon">
+                     <use xlink:href="#instagram"></use>
+                  </svg></a>
+            </div>
+            <!--/footer__social-->
+         </div>
+         <!--/footer__column-->
+         <div class="footer__column column--second">
+            <div class="footer__title title-small">About</div>
+            <div class="footer__links">
+               <a class="footer__link" href="#" target="_blank">
+                  <p>History</p>
+               </a>
+               <a class="footer__link" href="#" target="_blank">
+                  <p>Our Team</p>
+               </a>
+               <a class="footer__link" href="#" target="_blank">
+                  <p>Brand Guidlines</p>
+               </a>
+               <a class="footer__link" href="#" target="_blank">
+                  <p>Terms and condition</p>
+               </a>
+               <a class="footer__link" href="#" target="_blank">
+                  <p>Privacy policy</p>
+               </a>
+            </div>
+            <!--/footer__links -->
+         </div>
+         <!--/footer__column -->
+         <div class="footer__column column--third">
+            <div class="footer__title title-small">Services</div>
+            <div class="footer__links">
+               <a class="footer__link" href="#" target="_blank">
+                  <p>How ro Order</p>
+               </a>
+               <a class="footer__link" href="#" target="_blank">
+                  <p>Our Product</p>
+               </a>
+               <a class="footer__link" href="#" target="_blank">
+                  <p>Order Status</p>
+               </a>
+               <a class="footer__link" href="#" target="_blank">
+                  <p>Promo</p>
+               </a>
+               <a class="footer__link" href="#" target="_blank">
+                  <p>Payment Method</p>
+               </a>
+            </div>
+            <!--/footer__links -->
+         </div>
+         <!--/footer__column -->
+         <div class="footer__column column--fourth">
+            <div class="footer__title  title-small">Other</div>
+            <div class="footer__links">
+               <a class="footer__link" href="#" target="_blank">
+                  <p>Contact us</p>
+               </a>
+               <a class="footer__link" href="#" target="_blank">
+                  <p>Help</p>
+               </a>
+               <a class="footer__link" href="#" target="_blank">
+                  <p>Privacy</p>
+               </a>
+            </div>
+            <!--/footer__links -->
+         </div>
+         <!--/footer__column -->
+      </div>
+      <!--/footer__inner-->
+   </div>
+   <!--/container-->
+</footer>
+<!--/footer--> </div>
+   <!--/wrapper -->
+   <script src="https://kit.fontawesome.com/8d43c2cab2.js?_v=20221109103904" crossorigin="anonymous"></script>
+   <script src="./js/slick.min.js?_v=20221109103904"  type="text/javascript"></script>
+   <script src="./js/app.min.js?_v=20221109103904"  type="text/javascript"></script> <!-- Main Script -->
+</body>
+
+</html>
